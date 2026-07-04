@@ -1,29 +1,43 @@
 body{
-    font-family: Arial, sans-serif;
-    max-width:900px;
+    font-family:Arial,sans-serif;
+    max-width:1000px;
     margin:auto;
     padding:40px;
 }
 
-.project{
-    border:1px solid #ccc;
-    border-radius:10px;
-    padding:20px;
-    margin-top:20px;
-}
 header{
     text-align:center;
     padding:40px;
-    margin-bottom:30px;
+    margin-bottom:40px;
+}
+
+.main-logo{
+    width:180px;
+    max-width:100%;
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.project{
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:30px;
+    margin-top:20px;
+}
+
+.project-logo{
+    width:220px;
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
 }
 
 h1{
     margin-bottom:10px;
 }
-.logo{
-    width:300px;
-    max-width:100%;
-    display:block;
-    margin:auto;
-    margin-bottom:20px;
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
 }
